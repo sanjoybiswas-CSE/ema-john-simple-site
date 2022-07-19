@@ -26,7 +26,7 @@ const Cart = (props) => {
             <h4>Items Ordered : {props.cart.length}</h4>
             <br/>
             <p>The Total Price : {total}</p>
-            <p>Shipping : {shipping}</p>
+            <p>Shipping Cost : {shipping}</p>
             <p>Tax : {tax.toFixed(2)}</p> 
             <p>Grand Total : {grandTotal.toFixed(2)}</p>
 
